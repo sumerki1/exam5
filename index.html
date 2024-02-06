@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="nav__logo">
+            <div class="logo">
+             
+            </div>
+            <p class="logo__text"></p>
+        </div>
+        <div class="search__select">
+            <select id="sorter">
+                <option value="#" selected disabled>Choose 1</option>
+                <option value="photo">Photo</option>
+                <option value="video">Video</option>
+            </select>
+            <input type="text" id="searchInput" placeholder="Enter search query">
+            <i id="searchIcon" class="fas fa-solid fa-magnifying-glass"></i>
+        </div>
+        
+        <button class="registration">Registration</button>
+    </nav>
+    <div class="container">
+        <div class="home-page">
+            <p class="page__text"></p>
+            <div class="page__buttons__container">
+                <div class="page__buttons"></div>  
+            </div>
+            <div class="images__container">
+                <div class="images__first"></div>
+                <div class="images__second"></div>
+                <div class="images__third"></div>
+            </div>
+        </div>
+    </div>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <img id="modalImg" class="modal-img" src="" alt="">
+                <div id="caption" class="caption"></div>
+            </div>
+        </div>    
+
+    <script src="./script/app.js"></script>
+</body>
+</html>
